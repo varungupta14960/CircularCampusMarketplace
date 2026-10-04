@@ -1,0 +1,42 @@
+# Maven
+target/
+*.war
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+
+# Tomcat (if a local instance lives inside the repo folder)
+apache-tomcat-*/
+*.pid
+
+# Logs
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local-only environment/config overrides (never commit real credentials)
+.env
+*.local.properties
